@@ -23,7 +23,7 @@ public class Piece {
         this.pokemon = new Nidoqueen();
         this.joueur = 1;
         this.position = new Position("A1");
-        this.texture = new Texture("img/" + this.getPokemon().getNumPokemon() + ".png", new Point(5+this.getPosition().getX()*100, 5+this.getPosition().getY()*100), 90, 90);
+        this.texture = new Texture("src/pokemons/img/" + this.getPokemon().getNumPokemon() + ".png", new Point(5+this.getPosition().getX()*100, 5+this.getPosition().getY()*100), 90, 90);
         //this.affichagePV = new Texte(Couleur.NOIR, String.valueOf(this.getPokemon().getPv()), new Font("Calibri", Font.TYPE1_FONT, 20), new Point(85+this.getPosition().getX()*100, 85+this.getPosition().getY()*100));
     }
 
@@ -44,7 +44,7 @@ public class Piece {
         this.pokemon=poke;
         this.joueur=joueur;
         this.position= new Position(x,y);
-        this.texture = new Texture("img/" + this.getPokemon().getNumPokemon() + ".png", new Point(5+this.getPosition().getX()*100, 5+this.getPosition().getY()*100), 90, 90);
+        this.texture = new Texture("src/pokemons/img/" + this.getPokemon().getNumPokemon() + ".png", new Point(5+this.getPosition().getX()*100, 5+this.getPosition().getY()*100), 90, 90);
 
     }
 
@@ -54,7 +54,7 @@ public class Piece {
         this.pokemon=poke;
         this.joueur=joueur;
         this.position= p;
-        this.texture = new Texture("img/" + this.getPokemon().getNumPokemon() + ".png", new Point(5+this.getPosition().getX()*100, 5+this.getPosition().getY()*100), 90, 90);
+        this.texture = new Texture("src/pokemons/img/" + this.getPokemon().getNumPokemon() + ".png", new Point(5+this.getPosition().getX()*100, 5+this.getPosition().getY()*100), 90, 90);
 
     }
 
@@ -64,7 +64,7 @@ public class Piece {
         this.pokemon=poke;
         this.joueur=joueur;
         this.position= new Position(p);
-        this.texture = new Texture("img/" + this.getPokemon().getNumPokemon() + ".png", new Point(5+this.getPosition().getX()*100, 5+this.getPosition().getY()*100), 90, 90);
+        this.texture = new Texture("src/pokemons/img/" + this.getPokemon().getNumPokemon() + ".png", new Point(5+this.getPosition().getX()*100, 5+this.getPosition().getY()*100), 90, 90);
 
     }
 
